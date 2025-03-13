@@ -1,0 +1,177 @@
+/* IMPORT WEBSITE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* UNIVERSAL STYLING */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(90deg, #004c4c, #006666, #008080, #66b2b2);
+  background-size: 300% 300%;
+  animation: bg-animation 10s ease infinite;
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* ADDING ANIMATED GRADIENT BACKGROUND */
+@keyframes bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* NAVIGATION HEADER STYLING */
+#nav-header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#nav-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+#nav-header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+#nav-header ul li a:hover {
+  color: #66b2b2;
+}
+
+/* HOME PAGE STYLING */
+.main-heading h1 {
+  text-align: center;
+  margin: 70px 0;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+}
+
+.home-content .home-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 85px;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.4);
+}
+
+.home-content .text {
+  max-width: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+}
+
+/* MY HOBBY PAGE STYLING */
+.hobby-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hobby-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.hobby-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+
+.secondary-heading {
+  font-weight: 700;
+  margin: 20px 0 10px;
+  font-size: 1.8rem;
+}
+
+.sub-heading {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+
+.hobby-content .text {
+  max-width: 80%;
+  margin: 5px 0;
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* CONTACT PAGE STYLING */
+.secondary-heading h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: a-hover 0.3s ease;
+  width: 300px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.socials a:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+}
