@@ -1,0 +1,11 @@
+Website Hyperlink:
+https://pujdesai.github.io/DS_4200_HW3/
+
+Styling & Customizations:
+
+1. Imported the "Manrope" font from Google Fonts to ensure consistent typography across the site.
+2. Applied an animated linear gradient background for a dynamic visual effect.
+3. Styled the navigation header with a semi-transparent background, centered links with generous spacing, and hover effects.
+4. On the Home Page, centered the main heading and arranged the image and text side by side, with rounded images and subtle shadows.
+5. On the My Hobby Page, implemented a flex-column layout with a centered image at the top followed by secondary and sub-headings and justified text.
+6. On the Contact Page, created uniformly sized social link buttons with icons, centered them on the page, and added hover effects.
