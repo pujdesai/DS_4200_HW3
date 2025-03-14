@@ -1,6 +1,9 @@
 Website Hyperlink:
 https://pujdesai.github.io/DS_4200_HW3/
 
+Github Repo Link:
+https://github.com/pujdesai/DS_4200_HW3 (the README.md file contains a hyperlink to the website as well)
+
 Styling & Customizations:
 
 1. Imported the "Manrope" font from Google Fonts to ensure consistent typography across the site.
